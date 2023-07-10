@@ -1,0 +1,65 @@
+/* Common Shared Styles */
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: red;
+    padding: 20px 43px;
+    border: 0px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: white;
+}
+
+
+/* Header Section Styles */
+
+
+.header-section {
+    width: 1920px;
+    height: 850px;
+    background-color: beige;
+    padding: 50px 240px 0px 240px ;
+}
+.header-items h1, p, button{
+    margin-bottom: 32px;
+    justify-content: center;
+
+}
+.header-items{
+    padding-top: 200px;
+
+
+}
+
+
+.header-title {
+    color: #272727;
+
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    
+}
+
+.header-description {
+    color: rgba(39, 39, 39, 0.60);
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+.header-column{
+    display: flex;
+    gap:170px;
+}
+.profile-pic{
+    padding-top: 50px;
+}
