@@ -25,14 +25,18 @@
     width: 1920px;
     height: 850px;
     background-color: beige;
-    padding: 50px 240px 0px 240px ;
+    padding: 50px 240px 0px 240px;
 }
-.header-items h1, p, button{
+
+.header-items h1,
+p,
+button {
     margin-bottom: 32px;
     justify-content: center;
 
 }
-.header-items{
+
+.header-items {
     padding-top: 200px;
 
 
@@ -45,7 +49,7 @@
     font-size: 80px;
     font-style: normal;
     font-weight: 800;
-    
+
 }
 
 .header-description {
@@ -54,12 +58,181 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    
+
 }
-.header-column{
+
+.header-column {
     display: flex;
-    gap:170px;
+    gap: 170px;
 }
-.profile-pic{
+
+.profile-pic {
     padding-top: 50px;
+}
+
+/* Optional Section Related Styels */
+.optional-section {
+    width: 100%;
+    height: 80vh;
+    background-color: red;
+    padding: 50px 240px 0px 240px;
+}
+
+/* Hot Deal Section Ralated Styles */
+.hot-deal {
+    background-color: beige;
+}
+
+.hot-deal-item {
+    padding-top: 230px;
+    padding-bottom: 230px;
+    text-align: center;
+}
+
+.hot-deal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 215px;
+}
+
+.hot-deal-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+
+.hot-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.hot-deal-title>span {
+    color: red;
+}
+
+/* Photo Gallery Section */
+.gallery-item {
+    text-align: center;
+    padding: 100px 0px 30px 0px;
+
+}
+
+.gallery-title {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    padding-bottom: 24px;
+}
+
+.gallery-description {
+    color: rgba(39, 39, 39, 0.60);
+
+    font-size: 18px;
+
+    font-weight: 400;
+}
+
+.gallery-img {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-bottom: 100px;
+}
+
+.pic {
+    width: 342px;
+    height: 396px;
+}
+
+/* Contact Related Styles */
+.contact {
+    background-image: url('../Flower\ Asset/Rectangle 9.png');
+    width: 1440px;
+    height: 449px;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    margin: auto;
+}
+
+.contact-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 16px;
+}
+
+.contact-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.inputs {
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.email {
+    width: 700px;
+    height: 46;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    margin-right: 16px;
+    padding: 22px;
+}
+
+/* Footer Related Styles */
+.footer-container {
+    background-color: black;
+    padding: 130px 100px;
+    color: #FFF;
+    text-align: center;
+}
+
+.footer-title {
+    color: red;
+    margin-bottom: 24px;
+
+}
+
+.footer-title span {
+    color: rgb(255, 255, 255);
+
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.copyrithgt {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
