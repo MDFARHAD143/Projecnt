@@ -72,7 +72,7 @@ button {
     padding-top: 50px;
 }
 
-/* Bonus Section Styles */
+/* Bonus Section's Styles */
 .bonus-text {
     text-align: center;
     padding-top: 100px;
@@ -105,16 +105,10 @@ button {
     gap: 20px;
 }
 
-.pics1 {
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
-    padding: 110px 75px 0px 75px;
-    width: 310px;
-    height: 428px;
-    background-size: 464px 538px;
 
 
-}
+
+
 
 .pics1 {
     border-radius: 300px 300px 0px 0px;
@@ -130,9 +124,9 @@ button {
 .pics2 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    padding: 110px 75px 0px 75px;
-    width: 310px;
-    height: 428px;
+    padding: 117px 47px 51px 47px;
+    width: 370px;
+    height: 370px;
     background-size: 464px 538px;
 
 
@@ -141,20 +135,12 @@ button {
 .pics3 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    padding: 110px 75px 0px 75px;
-    width: 310px;
-    height: 428px;
+    padding: 67px 75px 0px 75px;
+    width: 314px;
+    height: 471px;
     background-size: 464px 538px;
 
 
-}
-
-/* Optional Section Related Styels */
-.optional-section {
-    /* width: 100%; */
-    height: 80vh;
-    background-color: red;
-    padding: 50px 240px 0px 240px;
 }
 
 .flower-names {
@@ -167,6 +153,94 @@ button {
     font-weight: 700;
     text-decoration: underline;
 }
+
+/* Own Made Section Related Styles */
+.own-section {}
+
+.own-container {}
+.own-all-items{
+    width: 1440px;
+    margin:auto;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+
+.own-texts {}
+
+.own-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+
+
+}
+
+.own-description {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 700;
+
+
+}
+
+.outlets-contrainer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-bottom: 100px;
+
+}
+
+.shop-pic {
+    width: 400px;
+    height: 300px;
+    padding-top: 100px;
+
+}
+
+.shop-info {
+    padding-left: 50px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-right: 60px;
+    padding-top: 50px;
+
+}
+
+h2 .red {
+    color: red;
+}
+
+.Open {
+    padding-bottom: 40px;
+    line-height: 45px;
+    text-align: right;
+    padding-right: 80px;
+
+
+}
+
+.address {
+    text-align: left;
+}
+
+.shop-name {
+    color: red;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 110px;
+    padding-bottom: 50px;
+    
+}
+
 
 /* Hot Deal Section Ralated Styles */
 .hot-deal {
