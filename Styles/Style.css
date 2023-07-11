@@ -22,8 +22,7 @@
 
 
 .header-section {
-    width: 1920px;
-    height: 850px;
+    
     background-color: beige;
     padding: 50px 240px 0px 240px;
 }
@@ -37,7 +36,7 @@ button {
 }
 
 .header-items {
-    padding-top: 200px;
+    padding-top: 150px;
 
 
 }
@@ -46,9 +45,9 @@ button {
 .header-title {
     color: #272727;
 
-    font-size: 80px;
+    font-size: 75px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 780;
 
 }
 
@@ -63,7 +62,10 @@ button {
 
 .header-column {
     display: flex;
-    gap: 170px;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
 .profile-pic {
@@ -72,7 +74,7 @@ button {
 
 /* Optional Section Related Styels */
 .optional-section {
-    width: 100%;
+    /* width: 100%; */
     height: 80vh;
     background-color: red;
     padding: 50px 240px 0px 240px;
@@ -189,7 +191,7 @@ button {
 }
 
 .email {
-    width: 700px;
+    width: 650px;
     height: 46;
     border-radius: 8px;
     background: #FFF;
